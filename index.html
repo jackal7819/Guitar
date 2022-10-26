@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="./css/swiper-bundle.min.css">   
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="shortcut icon" href="./img/guitar.png" type="image/x-icon">
+        <title>The Guitar Shop</title>
+    </head>
+    <body>
+     <header class="header">
+        <svg class="header__logo">
+            <use xlink:href="./img/sprite.svg#logo"></use>
+        </svg>
+        <nav class="nav">
+            <input type="checkbox" class="nav__burger" id="nav-burger">
+            <label for="nav-burger" class="nav__burger-img"></label>
+            <div class="header__menu">
+                <a href="#" class="header__menu__item">Home</a>
+                <a href="#" class="header__menu__item">Catalog</a>
+                <a href="#" class="header__menu__item">News</a>
+                <a href="#contacts" class="header__menu__item">Contacts</a>
+            </div>
+        </nav>
+        <div class="header__icons">
+            <svg class="header__icon">
+                <use xlink:href="./img/sprite.svg#search"></use>
+            </svg>
+            <svg class="header__icon header__icon-stroke">
+                <use xlink:href="./img/sprite.svg#profile"></use>
+            </svg>
+        </div>
+    </header>
+    <main class="main">
+        <section class="sliders swiper mySwiperSliders">
+            <div class="sliders__wrapper swiper-wrapper">
+                <div class="sliders__item swiper-slide">
+                    <h1 class="sliders__title">Find your own style</h1>
+                    <a href="#" class="sliders__button button">View more</a>
+                    <img src="./img/slider1.png" alt="guitar" class="sliders__img">
+                </div>
+                <div class="sliders__item swiper-slide">
+                    <h1 class="sliders__title">Expand your horizons</h1>
+                    <a href="#" class="sliders__button">View more</a>
+                    <img src="./img/slider2.png" alt="guitar" class="sliders__img">
+                </div>
+                <div class="sliders__item swiper-slide">
+                    <h1 class="sliders__title">Discover new options</h1>
+                    <a href="#" class="sliders__button">View more</a>
+                    <img src="./img/slider3.png" alt="guitar" class="sliders__img">
+                </div>
+            </div>
+            <div class="sliders__pagination swiper-pagination"></div>
+        </section>
+        <section class="products">
+            <h2 class="products__title">New arrivals</h2>
+            <div class="swiper mySwiperProducts">
+                <div class="swiper-wrapper">
+                    <div class="products__item swiper-slide">
+                        <p class="products__stock">In Stock</p>
+                        <img src="./img/guitar1.png" alt="guitar" class="products__img">
+                        <p class="products__name">Hagstrom Tremar Viking Deluxe Cloudy</p>
+                        <p class="products__price">€1.300,00</p>
+                    </div>
+                    <div class="products__item swiper-slide">
+                        <p class="products__stock products__stock-sold">Sold</p>
+                        <img src="./img/guitar2.png" alt="guitar" class="products__img">
+                        <p class="products__name">Gibson Les Paul Standard 60s</p>
+                        <p class="products__price">€3.749,00</p>
+                    </div>
+                    <div class="products__item swiper-slide">
+                        <p class="products__stock">In Stock</p>
+                        <img src="./img/guitar3.png" alt="guitar" class="products__img">
+                        <p class="products__name">Suhr Standard Plus Trans Blue Denim</p>
+                        <p class="products__price">€3.449,00</p>
+                    </div>
+                    <div class="products__item swiper-slide">
+                        <p class="products__stock">In Stock</p>
+                        <img src="./img/guitar4.png" alt="guitar" class="products__img">
+                        <p class="products__name">Fender Telecaster Black Limited Edition</p>
+                        <p class="products__price">€1.499,00</p>
+                    </div>
+                    <div class="products__item swiper-slide">
+                        <p class="products__stock">In Stock</p>
+                        <img src="./img/guitar5.png" alt="guitar" class="products__img">
+                        <p class="products__name">Hagstrom Alvar Limited Edition</p>
+                        <p class="products__price">€2.990,00</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <a href="#" class="products__button button">View more</a>
+        </section>
+        <section class="partners">
+            <h2 class="partners__title">Our partners</h2>
+            <div class="swiper mySwiperPartners">
+                <div class="swiper-wrapper">
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner0.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner1.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner2.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner3.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner4.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner5.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner6.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner7.png" alt="partner" class="partners__img">
+                    </div>
+                    <div class="partners__item swiper-slide">
+                        <img src="./img/partner8.png" alt="partner" class="partners__img">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__info">
+            <div class="footer__menu">
+                <svg class="footer__logo">
+                    <use xlink:href="./img/sprite.svg#logo"></use>
+                </svg>
+                <nav class="footer__menu">
+                    <a href="#" class="footer__menu__item">Home</a>
+                    <a href="#" class="footer__menu__item">Catalog</a>
+                    <a href="#" class="footer__menu__item">News</a>
+                    <a href="#contacts" class="footer__menu__item">Contacts</a>
+                </nav>
+            </div>
+            <div class="footer__contacts">
+                <h3 class="footer__title">Contact Us</h3>
+                <div class="footer__icons" id="contacts">
+                    <a href="http://instagram.com" target="_blank"><svg class="footer__icon">
+                        <use xlink:href="./img/sprite.svg#instagram"></use>
+                    </svg></a>
+                    <a href="http://facebook.com" target="_blank"><svg class="footer__icon">
+                        <use xlink:href="./img/sprite.svg#facebook"></use>
+                    </svg></a>
+                    <a href="http://pinterest.com" target="_blank"><svg class="footer__icon">
+                        <use xlink:href="./img/sprite.svg#pinterest"></use>
+                    </svg></a>
+                    <a href="http://twitter.com" target="_blank"><svg class="footer__icon footer__icon-stroke">
+                        <use xlink:href="./img/sprite.svg#twitter"></use>
+                    </svg></a>
+                    <a href="http://youtube.com" target="_blank"><svg class="footer__icon footer__icon-stroke">
+                        <use xlink:href="./img/sprite.svg#youtube"></use>
+                    </svg></a>
+                </div>
+                <p class="footer__phone">0800 300 4040</p>
+            </div>
+        </div>
+        <p class="footer__end">© Copyright 2022. All rights reserved.</p>
+    </footer>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
